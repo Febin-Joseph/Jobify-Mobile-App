@@ -5,6 +5,29 @@
       "bundler": "metro"
     },
     "name": "jobify",
-    "slug": "jobify"
+    "slug": "jobify",
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.febinachu123.jobify",
+      "runtimeVersion": "1.0.0"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "46b5783d-0107-4674-9286-2392c7d95e6a"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/46b5783d-0107-4674-9286-2392c7d95e6a"
+    },
+    "ios": {
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
+    }
   }
 }
